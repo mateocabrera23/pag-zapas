@@ -1,0 +1,82 @@
+
+
+
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Jost", sans-serif;
+}
+
+.fotos-zapas{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.foto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 20%;
+    transition: transform 0.3s;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto img:hover{
+    transform: scale(1.15);
+}
+
+.logo-redes{
+    color: darkgreen;
+    font-size: 75px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+
+.letras{
+    margin: 0;
+    padding: 0;
+}
+
+.segundotit{
+    color: white;
+    text-align: center;
+}
+.titulo1{
+    color: white;
+    text-align: center;
+    text-decoration: underline gray;
+}
+
+.touch{
+    color: white;
+    text-align: center ;
+}
+p{
+    text-align: center;
+}
+
+
+
+
